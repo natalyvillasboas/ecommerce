@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function(e){
         if (resultObj.status === "ok")
         {
             console.log(resultObj.data)
+            product = resultObj.data
         }
     });
 });
